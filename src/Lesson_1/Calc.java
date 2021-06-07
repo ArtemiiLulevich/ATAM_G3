@@ -1,5 +1,11 @@
+package Lesson_1;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Calc {
 
+    private final List<String> testCalc = new ArrayList<>();
 
     public int sum(int a, int b){
         return a + b;
@@ -24,5 +30,7 @@ public class Calc {
         return a * b + "";
     }
 
-
+    public static void arrayChange(List<String> listForChange) throws IndexOutOfBoundsException{
+        listForChange.add("Change!");
+    }
 }
