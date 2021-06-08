@@ -1,3 +1,5 @@
+package Lesson_1;
+
 import Lesson_1.Calc;
 
 import java.lang.reflect.Array;
@@ -24,9 +26,9 @@ public class Application {
             my_array[10] = 10;
         } catch (Exception e){
             System.out.println(e.getMessage());
+        } finally {
+            System.out.println("");
         }
-
-
 
 //        Lesson_1.Calc calc = new Lesson_1.Calc();
 //
@@ -47,9 +49,6 @@ public class Application {
 //        for (String num: strings){
 //            System.out.println(num);
 //        }//forEach
-
-
-
 
         List<Integer> list_ints = new ArrayList<>();
 
@@ -124,7 +123,7 @@ public class Application {
 //        h = Integer.parseInt("45");
 //        System.out.println(h);
 //
-//        Application application = new Application();
+//        Lesson_1.Application application = new Lesson_1.Application();
 //        application.a = 9;
 //        System.out.println(application.a);
 //
@@ -133,7 +132,7 @@ public class Application {
 //                "first ",
 //                "method");
 
-//        Application application1 = new Application();
+//        Lesson_1.Application application1 = new Lesson_1.Application();
 //        System.out.println(application1.a);
     }
 
